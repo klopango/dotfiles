@@ -66,12 +66,12 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-		'hyperterm-materialshell', 
-		'hypercwd',
-		'hyperline',
-		'hyperlinks',
-		'hypergoogle',
-		'hyperterm-paste'
+    'hyperterm-materialshell', 
+    'hypercwd',
+    'hyperline',
+    'hyperlinks',
+    'hypergoogle',
+    'hyperminimal'
 ],
 
   // in development, you can create a directory under

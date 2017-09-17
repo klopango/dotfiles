@@ -1,8 +1,5 @@
-# Run ASCII art on start
-figlet rogerix
-
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/rogerix/.oh-my-zsh
+export ZSH=/Users/andrechristoga/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -88,9 +85,13 @@ fi
 alias t="tree"
 alias p="ping"
 alias ls="exa"
-alias pg="ping google.com"
+alias pg="speed-test"
+alias hot="istats"
 alias tweet="python ~/Workspace/togavis/main.py"
 alias rulus="jekyll serve"
+alias romeo="jekyll build && surge _site/"
+alias ghrepos="curl -s -i -H 'Authorization: token 5e8d4e96ae4f707594381e1c363f3d8f3aa77487' \
+    https://api.github.com/user/repos | grep -o 'https://github.com[^\"]*.git'"
 
 # Built-in Web Server
 alias pythonserver="python -m SimpleHTTPServer"
@@ -109,11 +110,11 @@ alias gcam="git add . && git commit -m"
 ## Git push commands
 alias hp="git push && git push heroku master"
 alias sp="git push -u origin master && surge"
-alias jp="jekyll build && gp"
+alias jb="jekyll build && gcam \"Rebuild jekyll\" && git push"
+alias np="npm publish && gp"
 
 # alias doublepush="git push origin cordova && git push origin gh-pages"
 # alias dp="git push github master && git push bitbucket master"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-
