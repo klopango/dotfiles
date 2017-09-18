@@ -1,4 +1,4 @@
-export ZSH=/Users/klopango/.oh-my-zsh
+export ZSH=/Users/andrechristoga/.oh-my-zsh
 ZSH_THEME="materialshelloceanic"
 plugins=(git bower)
 
@@ -28,7 +28,7 @@ alias ghrepos="curl -s -i -H 'Authorization: token 5e8d4e96ae4f707594381e1c363f3
     https://api.github.com/user/repos | grep -o 'https://github.com[^\"]*.git'"
 alias vim="sublime"
 alias vi="sublime"
-alias new="mkdir project-name && cd project-name && mkdir css js && touch css/style.css js/main.js index.html && bower install bulma jquery font-awesome"
+alias new="mkdir project-name && cd project-name && mkdir css js && touch css/style.css js/main.js index.html"
 
 # Built-in Web Server
 alias pythonserver="python -m SimpleHTTPServer"
