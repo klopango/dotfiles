@@ -1,4 +1,4 @@
-export ZSH=/Users/andrechristoga/.oh-my-zsh
+export ZSH=/Users/klopango/.oh-my-zsh
 ZSH_THEME="materialshelloceanic"
 plugins=(git bower)
 
@@ -21,7 +21,6 @@ alias p="ping"
 alias ls="exa"
 alias pg="speed-test"
 alias hot="istats"
-alias tweet="python ~/Workspace/togavis/main.py"
 alias rulus="jekyll serve"
 alias romeo="jekyll build && surge _site/"
 alias ghrepos="curl -s -i -H 'Authorization: token 5e8d4e96ae4f707594381e1c363f3d8f3aa77487' \
