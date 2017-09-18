@@ -15,6 +15,7 @@ else
 fi
 
 ## Costum aliases
+
 # Shortified Commands
 alias t="tree"
 alias p="ping"
@@ -27,6 +28,7 @@ alias ghrepos="curl -s -i -H 'Authorization: token 5e8d4e96ae4f707594381e1c363f3
     https://api.github.com/user/repos | grep -o 'https://github.com[^\"]*.git'"
 alias vim="sublime"
 alias vi="sublime"
+alias new="mkdir project-name && cd project-name && mkdir css js && touch css/style.css js/main.js index.html && bower install bulma jquery font-awesome"
 
 # Built-in Web Server
 alias pythonserver="python -m SimpleHTTPServer"
@@ -41,6 +43,9 @@ alias xampp="cd /Applications/XAMPP/htdocs"
 
 # Git Commands
 alias gcam="git add . && git commit -m"
+alias glo="git log"
+alias grc="git reset --hard"
+alias gpf="git push --force"
 
 ## Git push commands
 alias hp="git push && git push heroku master"
