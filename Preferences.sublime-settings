@@ -1,0 +1,20 @@
+{
+	"color_scheme": "Packages/ayu/ayu-dark.tmTheme",
+	"font_face": "Consolas",
+	"font_size": 17,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
+	"material_theme_tree_headings": true,
+	"tab_size": 4,
+	"theme": "ayu-dark.sublime-theme",
+	"ui_fix_tab_labels": true,
+	"ui_font_default": true,
+	"ui_font_size_small": true,
+	"ui_separator": true,
+	"ui_sidebar_highlight_row": true,
+	"ui_wide_scrollbars": true
+}
